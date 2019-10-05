@@ -1,0 +1,5 @@
+services:
+  c28.route_subscriber:
+    class: 'Drupal\c28\Routing\C28RouteSubscriber'
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,7 @@
+c28.page_json:
+  path: '/page_json/{bundle}/{nid}'
+  defaults:
+    _controller: '\Drupal\c28\Controller\C28PageJson::jsonRequestData'
+    _title: 'JSON Representation'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,5 @@
+name: C28
+description: Alter drupal default site setting form and gives JSON response with request node.
+package: Custom
+core: 8.x
+type: module
